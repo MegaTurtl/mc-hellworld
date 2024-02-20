@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:obsidian"
+      },
+      "title": "Under Survivor",
+      "description": "Leave the Under by building a portal",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false,
+      "background": "minecraft:textures/block/ancient_debris_side.png"
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:changed_dimension", 
+		"conditions": {
+		"from": "minecraft:under",
+        "to": "minecraft:overworld"
+		}
+      }
+    },
+    "rewards": {
+	   "function": "hellworld:tp_to_wonder"
+    }
+  }
