@@ -1,0 +1,19 @@
+{
+  "type": "hellworld:plunder",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "minecraft:warm_ocean",
+      "layers": [
+        {
+          "block": "minecraft:water",
+          "height": 128
+        }
+      ],
+      "structure_overrides": [
+        "minecraft:shipwrecks",
+        "minecraft:ocean_monuments"
+      ]
+    }
+  }
+}

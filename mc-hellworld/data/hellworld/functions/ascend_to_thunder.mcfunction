@@ -1,6 +1,6 @@
 #tp player with correct data to correct dimension
 clear @e[team=Under,type=minecraft:player]
-execute in minecraft:thunder run tp @e[team=Under,type=minecraft:player] 0 50 0
+execute in hellworld:thunder run tp @e[team=Under,type=minecraft:player] 0 50 0
 
 #revoke advancement so it can be gotten again
 advancement revoke @e[team=Under,type=minecraft:player] only hellworld:exitunder

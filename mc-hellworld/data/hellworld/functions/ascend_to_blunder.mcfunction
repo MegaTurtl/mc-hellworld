@@ -1,6 +1,6 @@
 #tp player with correct data to correct dimension
 clear @e[team=Thunder,type=minecraft:player,scores={hasDied=3}]
-execute in minecraft:blunder run tp @e[team=Thunder,type=minecraft:player,scores={hasDied=3}] 0 50 0
+execute in hellworld:blunder run tp @e[team=Thunder,type=minecraft:player,scores={hasDied=3}] 0 50 0
 
 #set the data accordingly for the following dimension
 team join Blunder @e[team=Thunder,type=minecraft:player,scores={hasDied=3}]
