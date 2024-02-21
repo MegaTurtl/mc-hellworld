@@ -1,10 +1,10 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:obsidian"
+        "item": "minecraft:prismarine"
       },
-      "title": "Under Survivor",
-      "description": "Leave the Under by building a portal",
+      "title": "Plunder Survivor",
+      "description": "Leave the Plunder by killing an Elder Guardian",
       "frame": "goal",
       "show_toast": true,
       "announce_to_chat": true,
@@ -13,14 +13,15 @@
     },
     "criteria": {
       "requirement": {
-        "trigger": "minecraft:changed_dimension", 
+        "trigger": "minecraft:player_killed_entity", 
 		"conditions": {
-			"from": "minecraft:under",
-			"to": "minecraft:overworld"
+			"entity": {
+				"type": "minecraft:elder_guardian"
+			}
 		}
       }
     },
     "rewards": {
-	   "function": "hellworld:ascend_to_thunder"
+	   "function": "hellworld:ascend_to_wonder"
     }
   }
